@@ -510,6 +510,7 @@
   justify-content: center;
   align-items: center;
   color: var(--main-color, #000000);
+  padding-block-end: 30px;
 }
 
 .diskette[open] .diskette__floppy {
@@ -544,9 +545,4 @@
   align-items: center;
   padding-block-start: 10.5px;
   padding-block-end: 10.5px;
-  font-family: var(--accent-font, "PressStart2P", sans-serif);
-  font-size: 14px;
-  line-height: 150%;
-  font-weight: var(--main-font-weight, 400);
-  text-transform: uppercase;
 }

@@ -549,7 +549,7 @@
       </div>
 
       <dialog id="dialog-id" class="diskette">
-        <form>
+        <form  method="dialog">
         <ul class="diskette__floppy-text">
           <li>
             <svg
@@ -562,13 +562,28 @@
               >Вставьте дискету, чтобы продолжить</span
             >
           </li>
-        </ul>
+        </ul>        
+          <button class="diskette__button">
+                <span class="diskette__text">ОК</span>
+            </button>
         </form>
-        <form method="dialog">
-          <button class="diskette__button">ОК
-          </button>
-        </form> 
-        
+<!--        
+        <dialog id="dialog-id">
+          <form class="diskette" method="dialog">
+            <div class="diskette__floppy-text">
+              <svg width="39" height="39" viewBox="0 0 21 21" class="diskette__floppy">
+                <use href="/svg/floppy.svg#floppy"></use>
+              </svg>
+              <p class="diskette__text">Вставьте дискету, чтобы продолжить</p>
+            </div>
+            <button class="diskette__button">
+              <span class="diskette__text">ок</span>
+            </button>
+          </form>
+        </dialog>
+-->
+
+
       </dialog>
     </main>
     <script src="./scripts/set-theme.js"></script>
