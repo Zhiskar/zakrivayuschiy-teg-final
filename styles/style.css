@@ -544,4 +544,9 @@
   align-items: center;
   padding-block-start: 10.5px;
   padding-block-end: 10.5px;
+  font-family: var(--accent-font, "PressStart2P", sans-serif);
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: var(--main-font-weight, 400);
+  text-transform: uppercase;
 }
